@@ -1,0 +1,61 @@
+*{
+    border:0;
+    margin:0;
+    padding: 0;
+}
+
+nav, footer{
+    background-color: #e83e8c;
+}
+
+.navbar-brand img{
+    height: 3.3rem;
+}
+
+#main{
+    padding-top: 5rem;
+}
+
+#productos h1 {
+    padding: 60px 0px;
+  }
+
+#titulo {
+    font-size: 3rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    color: #212529;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card-body a{
+    text-decoration: none;
+}
+
+footer img{
+    height: 6rem;
+}
+
+#zona-azul{
+    background-color: #17a2b8;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2.5rem 0;
+}
+
+
+
+.iconos{
+    font-size: 5rem;
+    
+}
+
+@media (max-width: 566px){
+    #zona-azul{
+        display: none;
+    }
+}
+
